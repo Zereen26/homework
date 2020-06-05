@@ -1,0 +1,76 @@
+<style>
+	
+	body{
+		margin:0;
+		padding:0;
+	}
+
+	.wrapper{
+		display: flex;
+		flex-direction:column;
+
+	}
+	.nav{
+		position:absolute;
+		top:50%;
+		left:50%;
+		transform: translate(-50%,-50%);
+	}
+	.nav ul{
+		list-style:none;
+		margin:0;
+		padding: 0;
+	}
+	.nav ul li{
+		display:inline-flex;
+	}
+
+	.nav ul li a{
+		position:absolute;
+		padding: 20px 0px;
+		margin:0 25px;
+		color:#fff;
+		text-decoration:none;
+		text-transform:uppercase;
+		font-family:audiowide;
+		font-size:30px;
+
+	}
+	.nav ul li a:visited{ /*a link the uer has visited*/
+		color: red;
+	}
+	.nav ul li a:hover{
+		color:orange;
+		transition: .9s;
+
+	}
+	.nav ul li a:after{
+		content:' ';
+		position:absolute;
+		left:50%;
+		bottom:0;
+	}
+	.nav ul li a:active{
+		color:blue;
+		font-size: 35px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</style>
